@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="Teacher.NavigateToMyStudentTest">
+        <methods>
+          <include name="config_AM"/>
+          <include name="config_AC"/>
+          <include name="config_BC"/>
+          <include name="config_BM"/>
+        </methods>
+      </class> <!-- Teacher.NavigateToMyStudentTest -->
+      <class name="Teacher.AddStudentDataTest">
+        <methods>
+          <include name="config_AM"/>
+          <include name="config_AC"/>
+          <include name="config_AS"/>
+          <include name="addStudentdataTest"/>
+          <include name="config_BS"/>
+          <include name="config_BC"/>
+          <include name="config_BM"/>
+        </methods>
+      </class> <!-- Teacher.AddStudentDataTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

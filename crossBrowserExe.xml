@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="tests">
+  <test name="TestRunner=1">
+  <parameter name="BROWSER" value="chrome"></parameter>
+    <classes>
+      <class name="Practice_TestNG.Updatedata_TestNGTest"/>
+      <class name="Practice_TestNG.Deletedata_TestNGTest"/>
+      <class name="Practice_TestNG.ContactasCreate_TestNGTest"/>
+      <class name="Practice_TestNG.LeadCreate_TestNGTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestRunner=2">
+  <parameter name="BROWSER" value="edge"></parameter>
+    <classes>
+      <class name="Practice_TestNG.Updatedata_TestNGTest"/>
+      <class name="Practice_TestNG.Deletedata_TestNGTest"/>
+      <class name="Practice_TestNG.ContactasCreate_TestNGTest"/>
+      <class name="Practice_TestNG.LeadCreate_TestNGTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

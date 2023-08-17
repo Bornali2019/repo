@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38387" started-at="2023-08-16T09:14:08Z" finished-at="2023-08-16T09:14:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38387" started-at="2023-08-16T09:14:08Z" finished-at="2023-08-16T09:14:46Z">
+      <class name="Teacher.AddStudentDataTest">
+        <test-method status="PASS" signature="config_BS()[pri:0, instance:Teacher.AddStudentDataTest@1a968a59]" name="config_BS" is-config="true" duration-ms="539" started-at="2023-08-16T14:44:08Z" finished-at="2023-08-16T14:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BS -->
+        <test-method status="PASS" signature="config_BC()[pri:0, instance:Teacher.AddStudentDataTest@1a968a59]" name="config_BC" is-config="true" duration-ms="11600" started-at="2023-08-16T14:44:08Z" finished-at="2023-08-16T14:44:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method status="PASS" signature="config_BM()[pri:0, instance:Teacher.AddStudentDataTest@1a968a59]" name="config_BM" is-config="true" duration-ms="0" started-at="2023-08-16T14:44:20Z" finished-at="2023-08-16T14:44:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method status="PASS" signature="addStudentdataTest()[pri:0, instance:Teacher.AddStudentDataTest@1a968a59]" name="addStudentdataTest" duration-ms="9263" started-at="2023-08-16T14:44:20Z" finished-at="2023-08-16T14:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStudentdataTest -->
+        <test-method status="PASS" signature="config_AC()[pri:0, instance:Teacher.AddStudentDataTest@1a968a59]" name="config_AC" is-config="true" duration-ms="853" started-at="2023-08-16T14:44:29Z" finished-at="2023-08-16T14:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+        <test-method status="PASS" signature="config_AM()[pri:0, instance:Teacher.AddStudentDataTest@1a968a59]" name="config_AM" is-config="true" duration-ms="0" started-at="2023-08-16T14:44:29Z" finished-at="2023-08-16T14:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method status="PASS" signature="config_AS()[pri:0, instance:Teacher.AddStudentDataTest@1a968a59]" name="config_AS" is-config="true" duration-ms="19" started-at="2023-08-16T14:44:47Z" finished-at="2023-08-16T14:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AS -->
+      </class> <!-- Teacher.AddStudentDataTest -->
+      <class name="Teacher.NavigateToMyStudentTest">
+        <test-method status="PASS" signature="config_BC()[pri:0, instance:Teacher.NavigateToMyStudentTest@204f30ec]" name="config_BC" is-config="true" duration-ms="10114" started-at="2023-08-16T14:44:30Z" finished-at="2023-08-16T14:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method status="PASS" signature="config_BM()[pri:0, instance:Teacher.NavigateToMyStudentTest@204f30ec]" name="config_BM" is-config="true" duration-ms="1" started-at="2023-08-16T14:44:40Z" finished-at="2023-08-16T14:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method status="PASS" signature="navigatetostudent()[pri:0, instance:Teacher.NavigateToMyStudentTest@204f30ec]" name="navigatetostudent" duration-ms="5130" started-at="2023-08-16T14:44:40Z" finished-at="2023-08-16T14:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetostudent -->
+        <test-method status="PASS" signature="config_AM()[pri:0, instance:Teacher.NavigateToMyStudentTest@204f30ec]" name="config_AM" is-config="true" duration-ms="1" started-at="2023-08-16T14:44:45Z" finished-at="2023-08-16T14:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method status="PASS" signature="config_AC()[pri:0, instance:Teacher.NavigateToMyStudentTest@204f30ec]" name="config_AC" is-config="true" duration-ms="1387" started-at="2023-08-16T14:44:45Z" finished-at="2023-08-16T14:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- Teacher.NavigateToMyStudentTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
