@@ -18,7 +18,7 @@ public class UpdateMyStudentTest extends BaseClass {
 		lp.loginPage(username, PASSWORD);
 		String email_format = "@gmail.com";
 		int random = jlib.getRandomNo();
-		fail();
+		//fail();
 		UpdateMystudentPage my=new UpdateMystudentPage(driver);
 		String grade=elib.readDataFromExcel("dropdown", 0, 0);
 
